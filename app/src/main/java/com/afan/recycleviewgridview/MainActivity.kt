@@ -28,5 +28,7 @@ class MainActivity : AppCompatActivity() {
         dataList.add(DataModel("Title", "Desc", R.drawable.img1))
         dataList.add(DataModel("Title", "Desc", R.drawable.img2))
         dataList.add(DataModel("Title", "Desc", R.drawable.img3))
+        
+        photoAdapter.setDataList(dataList)
     }
 }
